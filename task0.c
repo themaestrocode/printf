@@ -10,7 +10,7 @@
 int _printf(const char *format, ...)
 {
 	va_list ap;
-	char fmt;
+	char c;
 	int str_count;
 
 	va_start(ap, format);
@@ -48,4 +48,4 @@ int _printf(const char *format, ...)
 	}
 	va_end(ap);
 	return (str_count);
-}
+i}
