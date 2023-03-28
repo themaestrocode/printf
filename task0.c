@@ -1,6 +1,6 @@
 #include <stdarg.h>
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _printf - a mini replica of printf
  * @format: strung specifier
@@ -48,4 +48,4 @@ int _printf(const char *format, ...)
 	}
 	va_end(ap);
 	return (str_count);
-i}
+}
