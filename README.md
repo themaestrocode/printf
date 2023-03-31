@@ -2,7 +2,7 @@ This repo is a project under which the printf function in C is replicated.
 An ALX SE project
 
 # _printf function
-================
+-----
 
 This is an implementation of the printf function in C. It takes a format string and a variable number of arguments and returns a formatted string.
 
